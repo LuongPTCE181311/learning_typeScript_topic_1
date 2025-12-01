@@ -7,6 +7,7 @@ const myScore = 9.1;
 console.log(myAge);
 console.log(myScore);
 
+
 //String
 
 const name = "pham thanh luong";
@@ -31,3 +32,6 @@ console.log(testNull);
 //dataType
 
 console.log(typeof 10);
+
+
+
