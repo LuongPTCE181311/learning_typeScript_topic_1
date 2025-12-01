@@ -1,0 +1,6 @@
+console.log("video 26");
+
+if(10 > 5){
+aconsole.log("bla bl;a");
+    
+}
