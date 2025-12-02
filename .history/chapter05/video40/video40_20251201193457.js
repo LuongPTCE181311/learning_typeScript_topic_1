@@ -1,0 +1,4 @@
+console.log("video 40");
+
+const myClass = ["Kenldur", "Nam", "Hung", "Eric", "Alibaba"];
+

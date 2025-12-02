@@ -1,0 +1,3 @@
+console.log("video 30");
+
+const scores = [10, 8, 4, 2, ]

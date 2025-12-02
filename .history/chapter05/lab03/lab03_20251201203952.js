@@ -1,0 +1,61 @@
+console.log("lab 03");
+
+const products = [
+  {
+    name: "T-shirt",
+    price: 200,
+    inStock: true,
+  },
+  {
+    name: "Shoes",
+    price: 500,
+    inStock: false,
+  },
+  {
+    name: "Hat",
+    price: 150,
+    inStock: true,
+  },
+  {
+    name: "Backpack",
+    price: 300,
+    inStock: true,
+  },
+  {
+    name: "Watch",
+    price: 800,
+    inStock: false,
+  },
+];
+
+// 1.	In ra tên của sản phẩm đầu tiên.
+console.log(products[0].name);
+
+// 2.	Thay đổi giá sản phẩm thứ hai thành 150 và in ra danh sách tất cả sản phẩm
+products[1].price = 150;
+console.log(products);
+// 3.	Thêm một sản phẩm mới vào cuối mảng và in ra danh sách tất cả sản phẩm
+const product = {
+  name: "shirt",
+  price: 200,
+  inStock: false,
+};
+
+products.push(product);
+console.log(products);
+// 4.	Xoá sản phẩm cuối cùng ra khỏi danh sách và in ra danh sách tất cả sản phẩm
+products.pop();
+console.log(products);
+// 5.	Dùng forEach( ) để in ra tất cả tên sản phẩm.
+products.forEach((item) => {
+  console.log(item.name);
+})
+// 6.	Dùng map( ) để tạo mảng mới chỉ chứa giá sản phẩm.
+const priceProduct = products.map((element) => element.price);
+console.log(priceProduct);
+
+// 7.	Dùng filter( ) để lấy các sản phẩm còn hàng (inStock = true).
+const productFilter = products.filter((element) => element.inStock === true);
+console.log(productFilter);
+
+// 8.	Dùng for...in để duyệt qua thuộc tính của sản phẩm đầu tiên.
