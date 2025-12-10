@@ -1,0 +1,10 @@
+console.log("video 91");
+const name = "hoidanit";
+const age = 21;
+const test = true;
+const score = [1, 2, 3];
+const demo = "bla bla";
+let username = "hoidanit@gmail.com";
+let age1 = 123;
+let abc = false;
+export {};
