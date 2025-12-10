@@ -1,0 +1,16 @@
+export {};
+
+console.log("video 112");
+
+class Lion {
+    name: string | undefined;
+    color: string | undefined;
+
+
+    slepp(){
+        console.log("Lion is sleeping...");
+    }
+}
+
+
+const sutu = new Lion

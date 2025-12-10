@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 console.log("video 91");
 const name = "hoidanit";
 const age = 21;
@@ -7,4 +9,3 @@ const demo = "bla bla";
 let username = "hoidanit@gmail.com";
 let age1 = 123;
 let abc = false;
-export {};
