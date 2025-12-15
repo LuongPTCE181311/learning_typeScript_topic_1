@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function logLength(value) {
     console.log(value.length);
 }
@@ -30,3 +28,4 @@ const a1 = new Dog();
 const b1 = new Animal();
 testClass(a1);
 testClass(b1);
+export {};

@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class NumberBox {
     constructor(content) {
         this.content = content;
@@ -16,3 +14,4 @@ class MagicBox {
     }
 }
 const a = new MagicBox(1);
+export {};

@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class User {
     constructor(name, email, role) {
         this._email = email;
@@ -50,5 +48,6 @@ hoidanit.printUserInfo();
 // 👉 Output:
 // [Student] Hoidanit - Enrolled Courses: TypeScript Pro
 eric.printUserInfo();
+export {};
 // 👉 Output:
 // [Teacher] Eric - Courses Taught: React

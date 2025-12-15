@@ -1,0 +1,1 @@
+const testCommon = (value: number)

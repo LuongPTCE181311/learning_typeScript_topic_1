@@ -1,0 +1,3 @@
+const testCommon = (value: any) => {
+    
+}

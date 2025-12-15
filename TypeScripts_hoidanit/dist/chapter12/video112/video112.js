@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 console.log("video 112");
 class Lion {
     slepp() {
@@ -15,3 +13,4 @@ const sutu2 = new Lion();
 sutu1.color = "WHITE";
 sutu1.name = "Eric";
 sutu1.slepp();
+export {};

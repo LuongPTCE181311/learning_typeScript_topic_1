@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 console.log("video 93");
 let username = "hoidanit#gmail.com";
 username = 123456789;
@@ -10,3 +8,4 @@ const printUsername = (username) => {
     }
 };
 printUsername("pham thanh luong");
+export {};

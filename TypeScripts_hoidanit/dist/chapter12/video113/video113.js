@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class SinhVien {
     sleep() {
         console.log("di ngu: ", this.name, "id :", this.id);
@@ -14,3 +12,4 @@ const sinhvien2 = new SinhVien();
 sinhvien2.name = "Nhu Y";
 sinhvien2.id = 181311;
 sinhvien2.sleep();
+export {};

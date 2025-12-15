@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class Cat {
     get id() {
         return this._id;
@@ -29,3 +27,4 @@ class Cat {
         console.log("meo meo...");
     }
 }
+export {};

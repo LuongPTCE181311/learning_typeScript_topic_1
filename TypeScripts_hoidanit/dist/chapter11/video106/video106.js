@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 console.log("video 106");
 const btn = document.getElementById("btn");
 const name = document.getElementById("name");
@@ -8,3 +6,4 @@ if (btn) {
         alert(name.value);
     });
 }
+export {};

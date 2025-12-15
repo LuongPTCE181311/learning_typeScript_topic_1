@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 console.log("video 92");
 const sayHi = (name) => {
     console.log("say hi....", name);
@@ -10,3 +8,4 @@ const sum = (a, b) => {
 sayHi("hahahah");
 const mySum = sum(9, 6);
 console.log(mySum);
+export {};

@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 console.log("video 125");
 function testNumber(value) {
     return value;
@@ -21,3 +19,4 @@ const getFirstElementInArray2 = (arr) => {
 };
 const a1 = getFirstElementInArray([1, 2, 3]);
 const a2 = getFirstElementInArray(["1", "2", "3"]);
+export {};

@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 console.log("video 117");
 class Parent {
     //methods
@@ -15,3 +13,4 @@ class Child extends Parent {
 }
 const hoidanit = new Child();
 hoidanit.shareAHouse();
+export {};
