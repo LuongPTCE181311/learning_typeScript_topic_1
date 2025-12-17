@@ -1,0 +1,2 @@
+
+function getRandomInt(min, max)
